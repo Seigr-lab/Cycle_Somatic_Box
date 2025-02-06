@@ -6,20 +6,21 @@ This document provides step-by-step instructions for constructing and installing
 
 ## **1. Materials and Tools**
 
-### Materials
+### **Materials**
 
 - **Wood**:
   - Locally sourced wood panels (treated or untreated, depending on your preference).
   - Wood dimensions: Four panels for walls (1m x 1m each), one for the lid, and one for the base.
 
 - **3D-Printed Components**:
-  - Electrode meshes (4 anodes and 8 cathodes, as specified in DESIGN.md).
-  - Cable guides and electrode mounts (if required).
+  - **Material**: PLA filament.
+  - **Printed Parts**:
+    - Electrode meshes (4 anodes and 8 cathodes, as specified in DESIGN.md).
+    - Cable guides and electrode mounts (if required).
 
-- **Coatings and Sealants**:
-  - **Graphene spray** for electrode coating.
-  - Linseed oil or an equivalent non-toxic wood treatment.
-  - Waterproof sealant for the wood (optional).
+- **Electrode Coating**:
+  - **Graphite powder** (conductive layer for electrodes).
+  - **Acrylic binding medium** (to adhere graphite powder to PLA electrodes).
 
 - **Wiring**:
   - Moisture-resistant silicone-insulated wires.
@@ -36,37 +37,37 @@ This document provides step-by-step instructions for constructing and installing
 
 ---
 
-### Tools
+### **Tools**
 
 - Saw and drill.
 - Screwdriver set.
 - Sandpaper or orbital sander.
 - Soldering iron and solder (for wiring).
 - 3D printer (e.g., Creality Ender-5 S1).
-- Paintbrush or cloth for wood treatment.
+- Paintbrush for applying acrylic-graphite coating.
 - Multimeter (for voltage and current testing).
 
 ---
 
 ## **2. Step-by-Step Assembly**
 
-### Step 1: Treat the Wood
+### **Step 1: Treat the Wood**
 
 1. **Shou Sugi Ban (Optional)**:
-   - Use a propane torch to char the wood surface lightly.
+   - Use a propane torch to lightly char the wood surface.
    - Sand the surface to remove soot, leaving a smooth, durable finish.
    - This step enhances resistance to rot, pests, and weather.
 
 2. **Apply Protective Treatments**:
    - Coat the wood with linseed oil or another natural wood treatment.
-   - Allow to dry fully before assembly.
+   - Allow it to dry fully before assembly.
 
 3. **Seal the Wood (Optional)**:
    - Apply a waterproof, non-toxic sealant if the box will be exposed to rain or high humidity.
 
 ---
 
-### Step 2: Assemble the Box
+### **Step 2: Assemble the Box**
 
 1. **Walls**:
    - Attach the four 1m x 1m panels together using screws or mortise and tenon joints.
@@ -83,44 +84,49 @@ This document provides step-by-step instructions for constructing and installing
 
 ---
 
-### Step 3: Prepare the Electrodes
+### **Step 3: Prepare the Electrodes**
 
 1. **Print the Electrodes**:
    - Use your 3D printer to create the electrode meshes:
      - **Anodes**: Four 50cm x 50cm perforated panels.
      - **Cathodes**: Eight 50cm x 25cm panels.
 
-2. **Apply Graphene Spray**:
-   - Coat the printed meshes with a layer of graphene spray to enhance conductivity.
-   - Allow the coating to dry completely before handling.
+2. **Prepare the Conductive Coating**:
+   - **Mix graphite powder with acrylic binding medium** until a smooth, paint-like consistency is achieved.
+   - Aim for a thick but spreadable paste that adheres well to the PLA surface.
 
-3. **Install the Electrodes**:
-   - Position the anode panels in the anaerobic zone at the base of the box.
-   - Mount the cathode panels near the top of the composting zone or along the walls, where oxygen exposure is optimal.
+3. **Apply the Graphite Coating**:
+   - Use a paintbrush to **evenly coat the 3D-printed PLA electrodes** with the graphite-acrylic mixture.
+   - Allow the first layer to dry completely before applying a second coat.
+   - Let the final coating cure for at least **24 hours** to ensure conductivity.
+
+4. **Install the Electrodes**:
+   - Position the **anode panels** in the anaerobic zone at the base of the box.
+   - Mount the **cathode panels** near the top of the composting zone or along the walls, where oxygen exposure is optimal.
 
 ---
 
-### Step 4: Wiring and Power Integration
+### **Step 4: Wiring and Power Integration**
 
 1. **Connect the Electrodes**:
    - Wire the anode and cathode panels in series or parallel configurations, depending on your voltage and current requirements.
    - Route the wires through moisture-protected cable guides or grooves in the wooden structure.
 
 2. **Install the Power Regulation System**:
-   - Connect the electrode output to the DC-DC step-up converter.
+   - Connect the electrode output to the **DC-DC step-up converter**.
    - Install capacitors to stabilize the voltage.
 
 3. **Test the Electrical Output**:
-   - Use a multimeter to ensure the system is generating the expected voltage and current.
-   - Verify the output is compatible with the EcoFlow Power Kit (11-48V).
+   - Use a **multimeter** to ensure the system is generating the expected voltage and current.
+   - Verify the output is compatible with the **EcoFlow Power Kit (11-48V)**.
 
 4. **Integrate with EcoFlow**:
-   - Connect the regulated output to the EcoFlow solar panel input port.
+   - Connect the regulated output to the **EcoFlow solar panel input port**.
    - Test the connection to ensure proper energy storage.
 
 ---
 
-### Step 5: Final Assembly and Testing
+### **Step 5: Final Assembly and Testing**
 
 1. **Add Ventilation**:
    - Install vents or slats on the walls and lid to allow proper aeration.
@@ -132,23 +138,23 @@ This document provides step-by-step instructions for constructing and installing
    - Pour a small amount of water into the composting zone and ensure leachate drains properly through the perforations.
 
 4. **Trial Composting**:
-   - Add a small amount of organic waste and monitor the microbial activity over several days.
-   - Test energy generation during this trial period.
+   - Add a small amount of organic waste and monitor microbial activity over several days.
+   - Test **energy generation** during this trial period.
 
 ---
 
 ## **3. Maintenance and Troubleshooting**
 
-### Maintenance
+### **Maintenance**
 
 - **Electrodes**:
-  - Inspect the graphene coating periodically and reapply if conductivity decreases.
+  - Inspect the **graphite-acrylic coating** periodically and reapply if conductivity decreases.
 - **Wood**:
   - Reapply linseed oil annually or as needed to maintain moisture resistance.
 - **Wires**:
   - Check for wear or corrosion and replace damaged wiring.
 
-### Troubleshooting
+### **Troubleshooting**
 
 - **Low Voltage Output**:
   - Check electrode connections for damage or poor contact.
@@ -163,20 +169,17 @@ This document provides step-by-step instructions for constructing and installing
 ## **4. Safety Notes**
 
 - When using a torch for wood treatment, work in a well-ventilated area and follow fire safety guidelines.
-- Handle the graphene spray in a well-ventilated area and wear protective gloves.
-- Always test the electrical output with a multimeter before connecting to the EcoFlow system.
+- Handle **graphite powder** carefully to avoid inhalation; wear a mask when mixing.
+- Work with **acrylic binding medium** in a well-ventilated area.
+- Always test the electrical output with a **multimeter** before connecting to the **EcoFlow system**.
 
 ---
 
 ## **5. Completion Checklist**
 
 - [ ] Box walls, base, and lid are assembled and treated.
-- [ ] Electrodes are printed, coated, and installed.
+- [ ] Electrodes are printed, coated with graphite-acrylic, and installed.
 - [ ] Wiring is complete and secured.
 - [ ] Power regulation system is installed and tested.
 - [ ] Ventilation and drainage systems are functional.
-- [ ] Integrated with the EcoFlow Power Kit and generating electricity.
-
----
-
-With these steps complete, your Cycle-Somatic Box is ready for full operation. Happy composting and energy harvesting!
+- [ ] Integrated with the **EcoFlow Power Kit** and generating electricity.

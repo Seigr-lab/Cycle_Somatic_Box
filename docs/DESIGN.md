@@ -13,12 +13,12 @@ This document outlines the design of the Cycle-Somatic Box, focusing on its phys
 
 ## **1. Objectives**
 
-### Primary Objectives
+### **Primary Objectives**
 
 - **Sustainable Power Generation**: Utilize microbial fuel cell (MFC) technology to harvest electricity from organic waste.
 - **Regenerative Composting**: Convert organic waste into high-quality soil for forest regeneration.
 
-### Secondary Objectives
+### **Secondary Objectives**
 
 - Operate year-round, including in low-temperature and low-sunlight conditions.
 - Provide modular scalability for increased energy output.
@@ -28,24 +28,24 @@ This document outlines the design of the Cycle-Somatic Box, focusing on its phys
 
 ## **2. Physical Design**
 
-### Dimensions
+### **Dimensions**
 
 - **Outer Dimensions**: 1m x 1m x 1m.
 - **Internal Compartments**:
   - Composting Zone: Occupies the bulk of the internal volume.
   - Soil Collection Tray: Accessible at the base for easy removal of finished compost.
 
-### Materials
+### **Materials**
 
 - **Wood**:
   - Locally sourced, treated with the **Shou Sugi Ban** method (charred wood) for durability and pest resistance.
   - Sealed with linseed oil and non-toxic sealants for moisture protection.
 - **3D-Printed Components**:
-  - Made from **PETG filament** for durability, moisture resistance, and flexibility.
+  - Made from **PLA filament**, which is biodegradable and suitable for structural but non-load-bearing components.
 - **Metal Reinforcements**:
   - Stainless steel hinges, screws, and optional corner braces for structural stability.
 
-### Key Features
+### **Key Features**
 
 - **Ventilated Lid**:
   - Hinged with hydraulic or spring-assisted supports for stability during operation.
@@ -59,18 +59,24 @@ This document outlines the design of the Cycle-Somatic Box, focusing on its phys
 
 ## **3. Core Components**
 
-### 3.1 **Electrodes**
+### **3.1 Electrodes**
 
-#### Design
+#### **Design**
 
-- **Material**: 3D-printed panels coated with **graphene spray** for high conductivity and durability.
+- **Material**: 3D-printed panels made of **PLA filament**, coated with **graphite powder mixed with acrylic binding medium** for high conductivity and durability.
 - **Dimensions**:
   - Bottom (anode) panels: Four 50cm x 50cm segments.
   - Side (cathode) panels: Eight 50cm x 25cm segments (two per wall).
 - **Structure**:
   - Perforated or grooved surface to increase microbial interaction and maximize electricity generation.
 
-#### Placement
+#### **Preparation**
+
+- Graphite powder is mixed with **acrylic binding medium** to create a conductive paint-like coating.
+- The mixture is applied evenly on **PLA-printed** electrode panels.
+- Panels are left to cure fully before installation to ensure proper conductivity and adhesion.
+
+#### **Placement**
 
 - **Anode**:
   - Positioned at the bottom of the compost pile in the anaerobic zone.
@@ -81,24 +87,24 @@ This document outlines the design of the Cycle-Somatic Box, focusing on its phys
 
 ---
 
-### 3.2 **Power Regulation System**
+### **3.2 Power Regulation System**
 
-#### DC-DC Step-Up Converter
+#### **DC-DC Step-Up Converter**
 
 - Converts MFC output (~0.7-1.0V per electrode pair) to a usable range (11-48V) for the EcoFlow Power Kit.
 
-#### Capacitor Bank
+#### **Capacitor Bank**
 
 - Smooths out voltage fluctuations caused by microbial activity and ensures consistent power output.
 
-#### Wiring
+#### **Wiring**
 
-- **Moisture-Resistant Wires**: Routed through 3D-printed grooves for protection.
+- **Moisture-Resistant Wires**: Routed through **3D-printed PLA grooves** for protection.
 - **Connection Hub**: Integrates all electrode outputs into the power regulation system.
 
 ---
 
-### 3.3 **Moisture and Aeration Control**
+### **3.3 Moisture and Aeration Control**
 
 - **Adjustable Vents**:
   - Slatted vents on the lid and upper walls allow airflow to maintain proper oxygen levels.
@@ -109,7 +115,7 @@ This document outlines the design of the Cycle-Somatic Box, focusing on its phys
 
 ---
 
-### 3.4 **Compost and Soil Management**
+### **3.4 Compost and Soil Management**
 
 - **Layering System**:
   - Organic waste is layered to ensure proper aeration and microbial distribution.
@@ -156,7 +162,7 @@ This document outlines the design of the Cycle-Somatic Box, focusing on its phys
 - **Winter Operation**:
   - Insulated walls and microbial heat generation ensure consistent operation during colder months.
 - **Sustainable Materials**:
-  - Locally sourced wood and recyclable 3D-printed components minimize environmental impact.
+  - Locally sourced wood and recyclable **PLA-printed** components minimize environmental impact.
 - **Leachate Management**:
   - Excess liquid is collected and recycled to maintain compost moisture levels.
 
@@ -164,16 +170,16 @@ This document outlines the design of the Cycle-Somatic Box, focusing on its phys
 
 ## **7. Challenges and Future Improvements**
 
-### Current Challenges
+### **Current Challenges**
 
 - **Optimizing Electrode Efficiency**:
-  - Ensuring the graphite coating remains durable and conductive over time.
+  - Ensuring the **graphite-acrylic** coating remains durable and conductive over time.
 - **Scaling the System**:
   - Managing wiring complexity in multi-box setups.
 - **Cold Weather Performance**:
   - Maintaining microbial activity during prolonged freezing conditions.
 
-### Future Improvements
+### **Future Improvements**
 
 - **Integrated Sensors**:
   - Add temperature, moisture, and voltage sensors for real-time monitoring.
@@ -184,6 +190,4 @@ This document outlines the design of the Cycle-Somatic Box, focusing on its phys
 
 ## **8. Conclusion**
 
-The Cycle-Somatic Box represents a seamless integration of biological and technological innovation. By leveraging microbial processes to generate electricity and soil, this design aligns with Seigr's ethos of sustainability, modularity, and environmental stewardship. This document serves as a foundation for further experimentation and refinement, inspiring a future of resilient and sustainable systems.
-
----
+The Cycle-Somatic Box represents a seamless integration of biological and technological innovation. By leveraging microbial processes to generate electricity and soil, this design aligns with Seigr's ethos of sustainability, modularity, and environmental stewardship. This document serves as a foundation for further experimentation and refinement, ensuring a future of resilient and sustainable systems.

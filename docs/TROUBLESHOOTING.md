@@ -1,170 +1,185 @@
-# **Cycle-Somatic Box: Troubleshooting Guide**
+# **Cycle-Somatic Box: Troubleshooting Guide**  
 
-This guide provides solutions to common issues that may arise while operating the Cycle-Somatic Box. Follow the steps below to diagnose and resolve problems related to energy generation, composting, and system performance.
-
----
-
-## **1. Low or No Electricity Output**
-
-### **Symptoms of Low or No Electricity Output**
-
-- Voltage reading below 0.7V per electrode pair.
-- No noticeable power reaching the EcoFlow Power Kit.
-
-### **Causes and Solutions for Low or No Electricity Output**
-
-1. **Poor Electrode Contact**
-   - **Cause**: Loose wiring or improper connections between anodes, cathodes, or the DC-DC converter.
-   - **Solution**:
-     - Inspect all connections and tighten loose wires.
-     - Use a multimeter to test continuity across the wiring.
-
-2. **Insufficient Microbial Activity**
-   - **Cause**: The compost pile lacks active microbes due to improper conditions (e.g., too dry, too wet, or cold).
-   - **Solution**:
-     - Check compost moisture (ideal is 50-60%). Add water if too dry, or dry materials (e.g., sawdust) if too wet.
-     - Add bokashi (fermented organic matter) or compost activators to introduce more microbes.
-     - Ensure the pile is warm (above 10°C). Add insulation if necessary.
-
-3. **Electrode Coating Wear**
-   - **Cause**: The coating on the electrodes has degraded, reducing conductivity.
-   - **Solution**:
-     - Inspect electrodes for wear. Reapply a fresh layer of conductive spray if needed.
-     - Allow the coating to dry completely before reinstalling the electrodes.
-
-4. **DC-DC Converter Malfunction**
-   - **Cause**: Faulty or misconfigured DC-DC step-up converter.
-   - **Solution**:
-     - Verify the input and output voltage of the converter with a multimeter.
-     - Replace the converter if it fails to regulate voltage properly.
+This guide helps identify and resolve issues related to **energy generation, composting, structural durability, and overall system performance** in the Cycle-Somatic Box.  
 
 ---
 
-## **2. Poor Composting Performance**
+## **1. Power Issues: Low or No Electricity Output**  
 
-### **Symptoms**
+### **Identifying the Problem**  
 
-- Organic material decomposes too slowly.
-- Bad odors emanating from the compost pile.
-- Excess liquid pooling at the bottom.
+- Voltage reading below **0.7V per electrode pair**.  
+- No noticeable power reaching the **EcoFlow Power Kit**.  
 
-### **Possible Causes and Solutions**
+### **Root Causes and Fixes**  
 
-1. **Improper Aeration**
-   - **Cause**: Insufficient oxygen flow within the compost pile.
-   - **Solution**:
-     - Ensure ventilation slats and lid vents are open and unobstructed.
-     - Aerate the pile by turning it gently with a tool or adding coarse material (e.g., straw).
+#### **1.1. Weak Electrical Connections**  
 
-2. **Moisture Imbalance**
-   - **Cause**: Compost is either too dry or waterlogged.
-   - **Solution**:
-     - If too wet: Add dry materials such as shredded paper or sawdust. Check drainage holes to ensure excess water can escape.
-     - If too dry: Lightly sprinkle water and mix the compost to restore balance.
+- **Cause**: Loose wiring or poor contact between electrodes and the **DC-DC converter**.  
+- **Fix**:  
+  - Inspect all **electrical connections** and tighten loose wires.  
+  - Use a **multimeter** to check continuity and confirm a secure connection.  
 
-3. **Excessive Anaerobic Zones**
-   - **Cause**: Compacted compost restricts airflow, leading to anaerobic conditions.
-   - **Solution**:
-     - Break up compacted sections and mix the compost.
-     - Avoid overfilling the box, as this can compress the pile.
+#### **1.2. Decline in Microbial Activity**  
 
----
+- **Cause**: The compost lacks microbial action due to improper conditions (e.g., **too dry, too wet, or cold**).  
+- **Fix**:  
+  - Check compost **moisture (target: 50-60%)**. Adjust by adding **water** (if dry) or **sawdust** (if wet).  
+  - Add **bokashi or compost activators** to stimulate microbial growth.  
+  - Ensure the compost pile stays warm (**above 10°C**). If necessary, insulate the box.  
 
-## **3. Liquid Overflow**
+#### **1.3. Electrode Coating Degradation**  
 
-### **Symptoms of Liquid OverFlow**
+- **Cause**: The **graphite powder coating** on PLA electrodes has worn off, reducing conductivity.  
+- **Fix**:  
+  - Inspect electrodes for signs of wear.  
+  - **Reapply a fresh layer of graphite powder mixed with acrylic binding medium**.  
+  - Allow it to **dry fully** before reinstalling the electrodes.  
 
-- Liquid pooling around the base of the box.
-- Strong odor from the liquid.
+#### **1.4. Faulty Voltage Boost System**  
 
-### **Possible Causes and Solutions for Liquid OverFlow**
-
-1. **Blocked Drainage System**
-   - **Cause**: Drainage holes or the soil tray are clogged.
-   - **Solution**:
-     - Clear any obstructions from drainage holes or liquid channels.
-     - Ensure the soil tray is properly installed and free of debris.
-
-2. **Excess Water Input**
-   - **Cause**: High-moisture materials (e.g., fruit waste) added without dry counterbalance.
-   - **Solution**:
-     - Mix in dry materials such as wood shavings or shredded cardboard to absorb excess liquid.
-     - Monitor moisture levels regularly.
+- **Cause**: The **DC-DC step-up converter** is malfunctioning or misconfigured.  
+- **Fix**:  
+  - Measure voltage input and output using a **multimeter**.  
+  - If unstable or too low, **replace the converter** with a properly rated one.  
 
 ---
 
-## **4. Structural or Component Failures**
+## **2. Compost Decomposition Problems**  
 
-### **Symptoms of Failures**
+### **Signs of Inefficient Composting**  
 
-- Cracked walls, lid, or base.
-- Difficulty opening or closing the lid.
+- Organic material **decomposes too slowly**.  
+- Strong **unpleasant odors** develop.  
+- Liquid accumulation at the bottom of the box.  
 
-### **Possible Causes and Solutions to Failures**
+### **Underlying Issues and Remedies**  
 
-1. **Wood Degradation**
-   - **Cause**: Inadequate treatment or prolonged exposure to moisture.
-   - **Solution**:
-     - Reapply linseed oil or sealant to the wood periodically.
-     - Replace damaged panels if necessary.
+#### **2.1. Restricted Airflow Inside the Compost**  
 
-2. **Hinge or Lid Misalignment**
-   - **Cause**: Loose screws or warped wood affecting the lid’s alignment.
-   - **Solution**:
-     - Tighten all screws securing the hinges.
-     - Sand down warped edges to restore proper alignment.
+- **Cause**: Insufficient oxygen circulation in the compost pile.  
+- **Fix**:  
+  - Ensure **ventilation slats and lid vents** are open and unobstructed.  
+  - Regularly aerate the pile by turning it with a tool or adding **straw** for structure.  
 
-3. **3D-Printed Component Damage**
-   - **Cause**: Meshes or cable guides cracked or worn.
-   - **Solution**:
-     - Reprint damaged components using durable filament such as PETG.
-     - Apply a fresh conductive coating to any replaced electrode meshes.
+#### **2.2. Moisture Content Imbalance**  
 
----
+- **Cause**: Compost is either **too wet** or **too dry**.  
+- **Fix**:  
+  - **Too much moisture**: Mix in **shredded paper or sawdust** to absorb excess water. Ensure **drainage holes** are not blocked.  
+  - **Too dry**: Lightly **spray water** and mix the compost to restore balance.  
 
-## **5. Inconsistent Energy Output**
+#### **2.3. Excessive Anaerobic Zones**  
 
-### **Symptoms of Inconsistent Energy Output**
-
-- Fluctuating voltage or current readings.
-- Power delivery interruptions to the EcoFlow Power Kit.
-
-### **Possible Causes and Solutions for Inconsistent Energy Output**
-
-1. **Unstable Compost Conditions**
-   - **Cause**: Sudden changes in moisture, temperature, or oxygen levels.
-   - **Solution**:
-     - Maintain consistent environmental conditions by checking and adjusting compost regularly.
-     - Insulate the box during cold weather to stabilize microbial activity.
-
-2. **Voltage Regulation Issues**
-   - **Cause**: DC-DC converter not smoothing fluctuations effectively.
-   - **Solution**:
-     - Check the capacitor bank for damage or improper installation.
-     - Replace the DC-DC converter if it cannot stabilize the output.
-
-3. **Loose Wiring**
-   - **Cause**: Connections between electrodes or to the converter are loose.
-   - **Solution**:
-     - Inspect all wires and connections for damage or improper installation.
-     - Secure all wiring and replace damaged wires.
+- **Cause**: Compacted compost blocks oxygen from reaching microbes, slowing breakdown.  
+- **Fix**:  
+  - Break up **compacted layers** and mix to introduce air pockets.  
+  - Avoid **overloading** the box, which compresses materials.  
 
 ---
 
-## **6. General Maintenance Checklist**
+## **3. Liquid Management: Drainage and Overflow Issues**  
 
-To avoid common issues, follow this maintenance schedule:
+### **Warning Signs**  
 
-- **Daily**:
-  - Check moisture levels and aerate the compost if needed.
-  - Ensure vents and drainage holes are clear.
+- **Liquid pooling** around the box.  
+- **Rotten smell** from excess moisture buildup.  
 
-- **Weekly**:
-  - Inspect the electrodes for wear or debris.
-  - Measure voltage output to ensure consistent energy generation.
+### **Causes and Corrective Actions**  
 
-- **Monthly**:
-  - Reapply linseed oil or sealant to wooden components.
-  - Test the DC-DC converter and capacitor bank for proper functionality.
+#### **3.1. Clogged Drainage System**  
+
+- **Cause**: The **drainage holes** or **soil tray** are blocked.  
+- **Fix**:  
+  - Remove any debris from **drainage outlets** or **leachate channels**.  
+  - Ensure the **soil tray** is installed correctly.  
+
+#### **3.2. Excess Water from Composting Materials**  
+
+- **Cause**: High-moisture waste (e.g., **fruit scraps**) added without dry balance.  
+- **Fix**:  
+  - Mix in dry, absorbent materials like **wood shavings or shredded cardboard**.  
+  - Monitor compost **moisture levels** to prevent waterlogging.  
 
 ---
+
+## **4. Structural Issues: Box, Lid, and Components**  
+
+### **Detecting Structural Wear and Tear**  
+
+- **Cracks or splitting** in the wood panels.  
+- **Lid misalignment** makes opening difficult.  
+
+### **Probable Causes and Resolutions**  
+
+#### **4.1. Wood Deterioration Due to Moisture**  
+
+- **Cause**: Exposure to humidity or lack of protective treatment.  
+- **Fix**:  
+  - Reapply **linseed oil** or a **non-toxic sealant** annually.  
+  - Replace **damaged panels** if they weaken.  
+
+#### **4.2. Loose or Misaligned Lid Hinges**  
+
+- **Cause**: Warped wood or **loose hinge screws**.  
+- **Fix**:  
+  - Tighten **all hinge screws**.  
+  - Sand down **warped edges** to realign the lid.  
+
+#### **4.3. Damaged 3D-Printed Components**  
+
+- **Cause**: Cable guides, electrode mounts, or structural parts cracked.  
+- **Fix**:  
+  - Reprint broken components using **PLA filament**.  
+  - Apply **graphite powder + acrylic binding medium** to any replaced electrode meshes.  
+
+---
+
+## **5. Electrical Instability: Inconsistent Voltage or Power Drops**  
+
+### **Notable Power Fluctuation Symptoms**  
+
+- **Voltage readings vary unpredictably**.  
+- **Intermittent power supply** to the **EcoFlow Power Kit**.  
+
+### **Electrical Instability Fixes**  
+
+#### **5.1. Compost Condition Fluctuations**  
+
+- **Cause**: Changes in moisture, temperature, or oxygen disrupt microbial activity.  
+- **Fix**:  
+  - Maintain **stable composting conditions** (moisture, temperature, aeration).  
+  - Insulate the box in **cold weather** to prevent microbial slowdowns.  
+
+#### **5.2. Unstable Voltage Regulation**  
+
+- **Cause**: The **DC-DC converter** is failing to smooth out power delivery.  
+- **Fix**:  
+  - Check the **capacitor bank** for signs of damage or incorrect wiring.  
+  - Replace the **DC-DC converter** if voltage instability persists.  
+
+#### **5.3. Loose Wiring or Poor Electrical Contact**  
+
+- **Cause**: Wires between electrodes and power components are not secure.  
+- **Fix**:  
+  - Inspect and **secure all connections**.  
+  - Replace any **damaged or corroded wires**.  
+
+---
+
+## **6. Routine Maintenance Checklist**  
+
+### **Daily Inspections**  
+
+✅ Check **moisture levels** and aerate the compost if needed.  
+✅ Ensure **vents and drainage holes** are clear.  
+
+### **Weekly Tasks**  
+
+✅ Inspect **electrodes** for wear and reapply **graphite powder mix** if needed.  
+✅ Measure **voltage output** for steady energy generation.  
+
+### **Monthly Maintenance**  
+
+✅ Reapply **linseed oil or sealant** to protect the wood.  
+✅ Test the **DC-DC converter** and capacitor bank.  

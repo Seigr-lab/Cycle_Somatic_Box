@@ -45,22 +45,24 @@ The Cycle-Somatic Box integrates biological processes and advanced technology to
 ### **Key Components**
 
 1. **Structure**:
-   - Dimensions: 1m x 1m x 1m wooden box made from locally sourced and treated wood.
-   - Reinforced with weather-resistant finishes for durability.
+   - **Dimensions**: 1m x 1m x 1m wooden box made from locally sourced and treated wood.
+   - **Reinforcement**: Weather-resistant finishes for durability and longevity.
 
 2. **Electrodes**:
-   - Custom 3D-printed, graphene-coated electrodes optimized for microbial fuel cells.
-   - Anodes are placed in anaerobic zones at the bottom, while cathodes remain in aerobic zones near the top.
+   - **Material**: **3D-printed PLA panels coated with graphite powder mixed with acrylic binding medium**.
+   - **Placement**:
+     - **Anodes**: Positioned at the bottom in anaerobic zones to interact with microbes.
+     - **Cathodes**: Placed near the top or along the walls in aerobic zones for oxygen exposure.
 
 3. **Power Regulation**:
-   - High-efficiency DC-DC boost converter to match the EcoFlow system’s input range.
-   - Capacitor banks for voltage smoothing and stability.
+   - **High-efficiency DC-DC boost converter** to match the EcoFlow system’s input range.
+   - **Capacitor banks** to smooth voltage fluctuations caused by microbial activity.
 
 4. **Moisture and Aeration Control**:
-   - Adjustable vents and drainage maintain optimal microbial and composting conditions.
+   - **Adjustable vents and drainage system** to maintain optimal microbial and composting conditions.
 
 5. **Soil Extraction System**:
-   - Sliding tray for easy removal of composted material without disrupting electrodes.
+   - **Sliding collection tray** for easy removal of composted material without disrupting electrodes.
 
 ---
 
@@ -82,31 +84,36 @@ The Cycle-Somatic Box integrates biological processes and advanced technology to
 
 ### **1. Box Design**
 
-- Dimensions: 1m x 1m x 1m.
-- Materials: Treated wood (Shou Sugi Ban, linseed oil) and 3D-printed PETG components.
+- **Dimensions**: 1m x 1m x 1m.
+- **Materials**:
+  - **Wood**: Locally sourced, treated with Shou Sugi Ban (charred wood) and linseed oil for durability.
+  - **3D-Printed Components**: Made from **PLA filament** for electrode structures and cable guides.
 
 ### **2. Power Generation**
 
-- **Electrode Placement**:
-  - Anodes in anaerobic zones for microbial interaction.
-  - Cathodes in aerobic zones for oxygen access.
+- **Electrode Configuration**:
+  - **Anodes**: Placed in anaerobic zones at the bottom for optimal microbial interaction.
+  - **Cathodes**: Mounted near the top or along the walls in aerobic zones for oxygen exposure.
 - **Voltage Regulation**:
-  - DC-DC converter and capacitor banks ensure stable power output.
+  - **DC-DC step-up converter** ensures the generated power is within the required voltage range.
+  - **Capacitor banks** stabilize fluctuations and improve energy storage efficiency.
 
 ### **3. Composting System**
 
 - **Moisture Management**:
-  - Adjustable vents and drainage for optimal conditions.
+  - **Adjustable vents** and **drainage outlets** regulate humidity levels for optimal composting conditions.
 - **Soil Collection**:
-  - Sliding tray for hassle-free compost removal.
+  - **Sliding collection tray** at the base allows for easy harvesting of fully composted material.
 
 ### **4. Environmental Resilience**
 
-- Insulation for winter operations.
-- Modular design to adapt to changing needs.
+- **Winter Adaptation**:
+  - Thermal insulation retains microbial heat, ensuring composting and power generation continue in cold conditions.
+- **Scalability**:
+  - Modular design allows multiple Cycle-Somatic Boxes to be interconnected for increased energy output.
 
 ---
 
 ## **Conclusion**
 
-The Cycle-Somatic Box is a practical solution for bridging the gap between energy generation and waste management in an environmentally responsible manner. By leveraging microbial fuel cell technology and efficient composting, this project enables the Seigr Hub to operate independently year-round while contributing to soil regeneration. This repository serves as a detailed record of the project’s progress and technical details, ensuring the process can be refined and adapted over time.
+The Cycle-Somatic Box is a practical solution for bridging the gap between energy generation and waste management in an environmentally responsible manner. By leveraging **microbial fuel cell technology** and **efficient composting**, this project enables the Seigr Hub to operate independently year-round while contributing to soil regeneration. This repository serves as a **detailed record** of the project’s progress and technical details, ensuring the process can be refined and adapted over time.

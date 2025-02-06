@@ -15,7 +15,7 @@ The primary goal is to achieve **continuous charging of the EcoFlow Power Kit**,
 To ensure maximum microbial activity and energy harvesting:
 
 - **Use High-Efficiency Electrodes**:
-  - Apply **graphene spray** to 3D-printed meshes for high conductivity and durability.
+  - **3D-printed PLA panels coated with graphite powder and acrylic binding medium** for enhanced conductivity.
   - Maximize surface area with perforated or grooved designs, allowing more microbes to interact with the electrodes.
 
 - **Anode and Cathode Placement**:
@@ -40,13 +40,13 @@ The composting environment directly impacts microbial activity and, by extension
 ### **1.3. Electrical Configuration**
 
 - **Wiring for Efficiency**:
-  - Wire electrodes in series or parallel to balance voltage and current output based on the EcoFlow system requirements.
+  - Wire electrodes in **series or parallel** to balance voltage and current output based on the EcoFlow system requirements.
 
 - **DC-DC Converter**:
-  - Use a high-efficiency DC-DC step-up converter to bring the MFC voltage (~0.7-1.0V per pair) up to the EcoFlow input range (11-48V).
+  - Use a high-efficiency **DC-DC step-up converter** to bring the MFC voltage (~0.7-1.0V per pair) up to the **EcoFlow input range (11-48V)**.
 
 - **Voltage Stabilization**:
-  - Install capacitor banks to smooth out fluctuations caused by microbial activity.
+  - Install **capacitor banks** to smooth out fluctuations caused by microbial activity.
 
 ---
 
@@ -72,7 +72,7 @@ If scaling is necessary, multiple boxes can be connected in the following config
 - **Method**: Connect the **anodes of one box to the cathodes of the next**.
 - **Effect**: Each additional box increases total system voltage while keeping current constant.
 - **Ideal For**:
-  - Directly integrating with the EcoFlow system, which requires higher voltage inputs.
+  - Directly integrating with the **EcoFlow system**, which requires higher voltage inputs.
 
 #### **B) Parallel Connection (Current Scaling)**
 
@@ -80,7 +80,7 @@ If scaling is necessary, multiple boxes can be connected in the following config
 - **Method**: Connect all **anodes together** and all **cathodes together**, then feed into a shared power regulator.
 - **Effect**: Each additional box adds more current.
 - **Ideal For**:
-  - Applications requiring steady and robust current for energy storage.
+  - Applications requiring steady and robust current for **faster charging or higher power draw**.
 
 ---
 
@@ -121,7 +121,7 @@ To ensure long-term scalability and optimize performance:
 
 ### **4.2. Routine Maintenance**
 
-- Inspect electrodes for wear and reapply **graphene spray** as needed.
+- Inspect electrodes for wear and **reapply graphite coating** if conductivity decreases.
 - Clean vents, drains, and electrode connections periodically.
 - Ensure the DC-DC converter and wiring remain dry and functional.
 
@@ -129,8 +129,6 @@ To ensure long-term scalability and optimize performance:
 
 ## **5. Conclusion**
 
-The Cycle-Somatic Box is designed to harvest as much energy as possible from a single unit, leveraging advanced materials, optimized configurations, and a controlled composting environment. While the system can scale with additional boxes, its primary strength lies in maximizing the efficiency of **one box**, ensuring it continuously contributes to the Seigr Hub’s energy demands.
+The Cycle-Somatic Box is designed to **harvest as much energy as possible from a single unit**, leveraging optimized electrode materials, efficient wiring configurations, and a controlled composting environment. While the system can **scale with additional boxes**, its primary strength lies in maximizing the efficiency of **one box**, ensuring it continuously contributes to the Seigr Hub’s energy demands.
 
-By focusing on single-box performance and enabling seamless scaling, the Cycle-Somatic Box ensures a **sustainable and modular solution** for waste regeneration and energy harvesting.
-
----
+By focusing on **single-box performance** and enabling **seamless modular scaling**, the Cycle-Somatic Box provides a **sustainable and adaptable** solution for waste regeneration and energy harvesting.
