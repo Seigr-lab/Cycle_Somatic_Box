@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .dimension-line { stroke: red; stroke-width: 1; fill: none; }
+      .dimension-text { font-family: Arial; font-size: 12px; fill: red; text-anchor: middle; }
+      .part-outline { stroke: black; stroke-width: 2; fill: lightgray; opacity: 0.7; }
+      .construction-line { stroke: blue; stroke-width: 1; stroke-dasharray: 5,5; fill: none; }
+      .centerline { stroke: green; stroke-width: 1; stroke-dasharray: 10,5; fill: none; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="200" y="20" class="dimension-text" font-size="16" font-weight="bold">Assembly Hub - Top View</text>
+  
+  <!-- Main hub circle - 30mm diameter -->
+  <circle cx="200" cy="200" r="75" class="part-outline"/>
+  
+  <!-- Horizontal arm - 60mm total length, 8mm wide -->
+  <rect x="50" y="184" width="300" height="32" class="part-outline"/>
+  
+  <!-- Vertical arm - 8mm wide, 60mm total length -->
+  <rect x="184" y="50" width="32" height="300" class="part-outline"/>
+  
+  <!-- Center lines -->
+  <line x1="200" y1="30" x2="200" y2="370" class="centerline"/>
+  <line x1="30" y1="200" x2="370" y2="200" class="centerline"/>
+  
+  <!-- Dimensions -->
+  
+  <!-- Hub diameter dimension -->
+  <line x1="125" y1="190" x2="275" y2="190" class="dimension-line"/>
+  <line x1="125" y1="185" x2="125" y2="195" class="dimension-line"/>
+  <line x1="275" y1="185" x2="275" y2="195" class="dimension-line"/>
+  <text x="200" y="185" class="dimension-text">30mm diameter</text>
+  
+  <!-- Total width dimension -->
+  <line x1="50" y1="40" x2="350" y2="40" class="dimension-line"/>
+  <line x1="50" y1="35" x2="50" y2="45" class="dimension-line"/>
+  <line x1="350" y1="35" x2="350" y2="45" class="dimension-line"/>
+  <text x="200" y="35" class="dimension-text">60mm total width</text>
+  
+  <!-- Arm width dimension -->
+  <line x1="380" y1="184" x2="380" y2="216" class="dimension-line"/>
+  <line x1="375" y1="184" x2="385" y2="184" class="dimension-line"/>
+  <line x1="375" y1="216" x2="385" y2="216" class="dimension-line"/>
+  <text x="390" y="203" class="dimension-text" transform="rotate(90, 390, 203)">8mm</text>
+  
+  <!-- Connection points marked -->
+  <circle cx="50" cy="200" r="3" fill="red"/>
+  <circle cx="350" cy="200" r="3" fill="red"/>
+  <circle cx="200" cy="50" r="3" fill="red"/>
+  <circle cx="200" cy="350" r="3" fill="red"/>
+  
+  <text x="15" y="210" class="dimension-text" font-size="10">Left Connection</text>
+  <text x="385" y="210" class="dimension-text" font-size="10">Right Connection</text>
+  <text x="210" y="30" class="dimension-text" font-size="10">Top Connection</text>
+  <text x="210" y="385" class="dimension-text" font-size="10">Bottom Connection</text>
+  
+  <!-- SIDE VIEW SECTION -->
+  <text x="100" y="450" class="dimension-text" font-size="16" font-weight="bold">SIDE VIEW (Front)</text>
+  
+  <!-- Side view drawing - shows 4mm thickness -->
+  <rect x="100" y="480" width="300" height="16" class="part-outline"/>
+  <rect x="184" y="470" width="32" height="36" class="part-outline"/>
+  
+  <!-- Side view dimensions -->
+  <line x1="100" y1="520" x2="400" y2="520" class="dimension-line"/>
+  <line x1="100" y1="515" x2="100" y2="525" class="dimension-line"/>
+  <line x1="400" y1="515" x2="400" y2="525" class="dimension-line"/>
+  <text x="250" y="535" class="dimension-text">60mm total length</text>
+  
+  <line x1="80" y1="470" x2="80" y2="506" class="dimension-line"/>
+  <line x1="75" y1="470" x2="85" y2="470" class="dimension-line"/>
+  <line x1="75" y1="506" x2="85" y2="506" class="dimension-line"/>
+  <text x="70" y="490" class="dimension-text" transform="rotate(-90, 70, 490)">4mm thick</text>
+  
+  <!-- ASSEMBLY INSTRUCTIONS -->
+  <text x="50" y="580" class="dimension-text" font-size="14" font-weight="bold" text-anchor="start">ASSEMBLY INSTRUCTIONS:</text>
+  <text x="50" y="600" class="dimension-text" font-size="12" text-anchor="start">1. Place hub in center where 4 electrode quarters meet</text>
+  <text x="50" y="620" class="dimension-text" font-size="12" text-anchor="start">2. Hub arms fit into female slots of each quarter</text>
+  <text x="50" y="640" class="dimension-text" font-size="12" text-anchor="start">3. Creates secure 180mm x 180mm electrode assembly</text>
+  
+  <!-- MANUFACTURING NOTES -->
+  <text x="50" y="680" class="dimension-text" font-size="14" font-weight="bold" text-anchor="start">MANUFACTURING:</text>
+  <text x="50" y="700" class="dimension-text" font-size="12" text-anchor="start">• Material: PLA+ or Wood-filled PLA (biodegradable only)</text>
+  <text x="50" y="720" class="dimension-text" font-size="12" text-anchor="start">• Print flat, no supports needed</text>
+  <text x="50" y="740" class="dimension-text" font-size="12" text-anchor="start">• Print quantity: 6 hubs (one per large electrode)</text>
+  <text x="50" y="760" class="dimension-text" font-size="12" text-anchor="start">• Layer height: 0.2mm, Infill: 25%</text>
+  
+</svg>

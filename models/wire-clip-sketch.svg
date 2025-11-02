@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .dimension-line { stroke: red; stroke-width: 1; fill: none; }
+      .dimension-text { font-family: Arial; font-size: 12px; fill: red; text-anchor: middle; }
+      .part-outline { stroke: black; stroke-width: 2; fill: lightsteelblue; opacity: 0.7; }
+      .hole { stroke: black; stroke-width: 1; fill: white; }
+      .snap-feature { stroke: green; stroke-width: 2; fill: lightgreen; opacity: 0.8; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="150" y="20" class="dimension-text" font-size="16" font-weight="bold">Wire Management Clip - Top View</text>
+  
+  <!-- Main clip body - 40mm x 12mm -->
+  <rect x="80" y="80" width="120" height="36" rx="6" ry="6" class="part-outline"/>
+  
+  <!-- Snap-on tabs extending from back -->
+  <rect x="95" y="116" width="12" height="8" class="snap-feature"/>
+  <rect x="173" y="116" width="12" height="8" class="snap-feature"/>
+  
+  <!-- Wire guide lips on front and back -->
+  <rect x="80" y="76" width="120" height="4" class="part-outline"/>
+  <rect x="80" y="116" width="120" height="4" class="part-outline"/>
+  
+  <!-- Wire channels (holds 4 wires) - 2.5mm diameter -->
+  <circle cx="95" cy="98" r="2.5" class="hole"/>
+  <circle cx="115" cy="98" r="2.5" class="hole"/>
+  <circle cx="165" cy="98" r="2.5" class="hole"/>
+  <circle cx="185" cy="98" r="2.5" class="hole"/>
+  
+  <!-- Snap-on mounting slots -->
+  <rect x="90" y="120" width="20" height="4" class="hole"/>
+  <rect x="170" y="120" width="20" height="4" class="hole"/>
+  
+  <!-- Wire entry/exit chamfers -->
+  <polygon points="80,90 90,95 90,105 80,110" fill="lightgray" opacity="0.5"/>
+  <polygon points="200,90 190,95 190,105 200,110" fill="lightgray" opacity="0.5"/>
+  
+  <!-- Strain relief ridges -->
+  <rect x="92" y="82" width="2" height="32" fill="gray" opacity="0.6"/>
+  <rect x="113" y="82" width="2" height="32" fill="gray" opacity="0.6"/>
+  <rect x="163" y="82" width="2" height="32" fill="gray" opacity="0.6"/>
+  <rect x="183" y="82" width="2" height="32" fill="gray" opacity="0.6"/>
+  
+  <!-- Dimensions -->
+  
+  <!-- Overall length -->
+  <line x1="80" y1="50" x2="200" y2="50" class="dimension-line"/>
+  <line x1="80" y1="45" x2="80" y2="55" class="dimension-line"/>
+  <line x1="200" y1="45" x2="200" y2="55" class="dimension-line"/>
+  <text x="140" y="45" class="dimension-text">120mm</text>
+  
+  <!-- Overall width -->
+  <line x1="50" y1="76" x2="50" y2="124" class="dimension-line"/>
+  <line x1="45" y1="76" x2="55" y2="76" class="dimension-line"/>
+  <line x1="45" y1="124" x2="55" y2="124" class="dimension-line"/>
+  <text x="45" y="100" class="dimension-text" transform="rotate(-90, 45, 100)">48mm</text>
+  
+  <!-- Wire spacing -->
+  <line x1="95" y1="140" x2="115" y2="140" class="dimension-line"/>
+  <line x1="95" y1="135" x2="95" y2="145" class="dimension-line"/>
+  <line x1="115" y1="135" x2="115" y2="145" class="dimension-line"/>
+  <text x="105" y="135" class="dimension-text">20mm spacing</text>
+  
+  <!-- Wire diameter -->
+  <text x="95" y="155" class="dimension-text" font-size="10">5mm ⌀ wire channels</text>
+  
+  <!-- Tab dimensions -->
+  <line x1="95" y1="160" x2="107" y2="160" class="dimension-line"/>
+  <line x1="95" y1="155" x2="95" y2="165" class="dimension-line"/>
+  <line x1="107" y1="155" x2="107" y2="165" class="dimension-line"/>
+  <text x="101" y="155" class="dimension-text">12mm</text>
+  
+  <!-- FRONT VIEW (Side Profile) -->
+  <g transform="translate(250, 80)">
+    <text x="50" y="20" class="dimension-text" font-size="14" font-weight="bold">FRONT VIEW</text>
+    
+    <!-- Main body profile -->
+    <rect x="25" y="50" width="120" height="12" rx="6" ry="6" fill="none" stroke="black" stroke-width="2"/>
+    
+    <!-- Snap tabs profile -->
+    <rect x="40" y="62" width="12" height="6" fill="gray" stroke="black" stroke-width="1"/>
+    <rect x="113" y="62" width="12" height="6" fill="gray" stroke="black" stroke-width="1"/>
+    
+    <!-- Wire guide lips -->
+    <rect x="25" y="46" width="120" height="4" fill="lightgray" stroke="black" stroke-width="1"/>
+    <rect x="25" y="62" width="120" height="4" fill="lightgray" stroke="black" stroke-width="1"/>
+    
+    <!-- Wire channels -->
+    <circle cx="40" cy="56" r="2.5" class="hole"/>
+    <circle cx="60" cy="56" r="2.5" class="hole"/>
+    <circle cx="110" cy="56" r="2.5" class="hole"/>
+    <circle cx="130" cy="56" r="2.5" class="hole"/>
+    
+    <!-- Height dimension -->
+    <line x1="15" y1="46" x2="15" y2="68" stroke="red" stroke-width="1"/>
+    <line x1="10" y1="46" x2="20" y2="46" stroke="red" stroke-width="1"/>
+    <line x1="10" y1="68" x2="20" y2="68" stroke="red" stroke-width="1"/>
+    <text x="25" y="58" class="dimension-text" font-size="8">22mm</text>
+    
+    <!-- Body thickness -->
+    <text x="80" y="80" class="dimension-text" font-size="8">12mm thick</text>
+  </g>
+
+  <!-- Assembly info -->
+  <text x="50" y="200" class="dimension-text" font-size="14" font-weight="bold" text-anchor="start">ASSEMBLY NOTES:</text>
+  <text x="50" y="220" class="dimension-text" font-size="12" text-anchor="start">• Snap-fit design for wire management</text>
+  <text x="50" y="235" class="dimension-text" font-size="12" text-anchor="start">• Holds up to 4 wires (2.5mm diameter each)</text>
+  <text x="50" y="250" class="dimension-text" font-size="12" text-anchor="start">• Mounts to electrode posts or frame edges</text>
+  
+  <!-- Manufacturing notes -->
+  <text x="50" y="280" class="dimension-text" font-size="12" font-weight="bold" text-anchor="start">MANUFACTURING:</text>
+  <text x="50" y="300" class="dimension-text" font-size="10" text-anchor="start">• Material: PLA+ or Wood-filled PLA</text>
+  <text x="50" y="315" class="dimension-text" font-size="10" text-anchor="start">• Print flat side down, no supports needed</text>
+  <text x="50" y="330" class="dimension-text" font-size="10" text-anchor="start">• Snap-fit design for tool-free installation</text>
+  <text x="50" y="345" class="dimension-text" font-size="10" text-anchor="start">• Print quantity: 8-12 pieces per complete system</text>
+  <text x="50" y="360" class="dimension-text" font-size="10" text-anchor="start">• Test fit before final installation</text>
+  
+</svg>

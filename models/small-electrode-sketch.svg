@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .dimension-line { stroke: red; stroke-width: 1; fill: none; }
+      .dimension-text { font-family: Arial; font-size: 12px; fill: red; text-anchor: middle; }
+      .part-outline { stroke: black; stroke-width: 2; fill: lightseagreen; opacity: 0.7; }
+      .hole { stroke: black; stroke-width: 1; fill: white; }
+      .cavity { stroke: black; stroke-width: 1; fill: lightyellow; }
+      .wire-post { stroke: green; stroke-width: 2; fill: lightgreen; opacity: 0.8; }
+      .mounting-hole { stroke: blue; stroke-width: 2; fill: white; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="200" y="20" class="dimension-text" font-size="16" font-weight="bold">Small Electrode - Top View</text>
+  
+  <!-- Main body - 80mm x 60mm rectangular -->
+  <rect x="120" y="80" width="160" height="120" rx="10" ry="10" class="part-outline"/>
+  
+  <!-- Wire connection post - 8mm square -->
+  <rect x="194" y="184" width="12" height="12" class="wire-post"/>
+  <circle cx="200" cy="190" r="1.5" class="hole"/>
+  
+  <!-- Perforation holes - 3mm diameter, 12mm spacing -->
+  <!-- Row 1 -->
+  <circle cx="140" cy="100" r="1.5" class="hole"/>
+  <circle cx="160" cy="100" r="1.5" class="hole"/>
+  <circle cx="180" cy="100" r="1.5" class="hole"/>
+  <circle cx="220" cy="100" r="1.5" class="hole"/>
+  <circle cx="240" cy="100" r="1.5" class="hole"/>
+  <circle cx="260" cy="100" r="1.5" class="hole"/>
+  
+  <!-- Row 2 -->
+  <circle cx="140" cy="120" r="1.5" class="hole"/>
+  <circle cx="160" cy="120" r="1.5" class="hole"/>
+  <circle cx="180" cy="120" r="1.5" class="hole"/>
+  <circle cx="220" cy="120" r="1.5" class="hole"/>
+  <circle cx="240" cy="120" r="1.5" class="hole"/>
+  <circle cx="260" cy="120" r="1.5" class="hole"/>
+  
+  <!-- Row 3 -->
+  <circle cx="140" cy="140" r="1.5" class="hole"/>
+  <circle cx="160" cy="140" r="1.5" class="hole"/>
+  <circle cx="220" cy="140" r="1.5" class="hole"/>
+  <circle cx="240" cy="140" r="1.5" class="hole"/>
+  <circle cx="260" cy="140" r="1.5" class="hole"/>
+  
+  <!-- Row 4 -->
+  <circle cx="140" cy="160" r="1.5" class="hole"/>
+  <circle cx="160" cy="160" r="1.5" class="hole"/>
+  <circle cx="220" cy="160" r="1.5" class="hole"/>
+  <circle cx="240" cy="160" r="1.5" class="hole"/>
+  <circle cx="260" cy="160" r="1.5" class="hole"/>
+  
+  <!-- Row 5 -->
+  <circle cx="140" cy="180" r="1.5" class="hole"/>
+  <circle cx="160" cy="180" r="1.5" class="hole"/>
+  <circle cx="220" cy="180" r="1.5" class="hole"/>
+  <circle cx="240" cy="180" r="1.5" class="hole"/>
+  <circle cx="260" cy="180" r="1.5" class="hole"/>
+  
+  <!-- Central biochar cavity - 20mm diameter -->
+  <circle cx="200" cy="140" r="20" class="cavity"/>
+  <text x="200" y="145" class="dimension-text" font-size="9">Biochar Cavity</text>
+  
+  <!-- Wire routing channel -->
+  <rect x="195" y="165" width="10" height="20" fill="lightblue" opacity="0.5"/>
+  <text x="225" y="175" class="dimension-text" font-size="8">Wire Channel</text>
+  
+  <!-- Corner mounting holes -->
+  <circle cx="130" cy="90" r="3" class="mounting-hole"/>
+  <circle cx="270" cy="90" r="3" class="mounting-hole"/>
+  <circle cx="130" cy="190" r="3" class="mounting-hole"/>
+  <circle cx="270" cy="190" r="3" class="mounting-hole"/>
+  
+  <!-- Dimensions -->
+  
+  <!-- Overall length -->
+  <line x1="120" y1="50" x2="280" y2="50" class="dimension-line"/>
+  <line x1="120" y1="45" x2="120" y2="55" class="dimension-line"/>
+  <line x1="280" y1="45" x2="280" y2="55" class="dimension-line"/>
+  <text x="200" y="45" class="dimension-text">160mm</text>
+  
+  <!-- Overall width -->
+  <line x1="90" y1="80" x2="90" y2="200" class="dimension-line"/>
+  <line x1="85" y1="80" x2="95" y2="80" class="dimension-line"/>
+  <line x1="85" y1="200" x2="95" y2="200" class="dimension-line"/>
+  <text x="85" y="140" class="dimension-text" transform="rotate(-90, 85, 140)">120mm</text>
+  
+  <!-- Wire post size -->
+  <text x="215" y="195" class="dimension-text" font-size="9">12mm sq post</text>
+  
+  <!-- Hole spacing -->
+  <line x1="140" y1="220" x2="160" y2="220" class="dimension-line"/>
+  <line x1="140" y1="215" x2="140" y2="225" class="dimension-line"/>
+  <line x1="160" y1="215" x2="160" y2="225" class="dimension-line"/>
+  <text x="150" y="215" class="dimension-text">20mm spacing</text>
+  
+  <!-- Hole diameter -->
+  <text x="140" y="240" class="dimension-text" font-size="10">3mm ⌀ holes</text>
+  
+  <!-- Corner radius -->
+  <text x="130" y="75" class="dimension-text" font-size="9">R10mm corners</text>
+  
+  <!-- Mounting hole size -->
+  <text x="285" y="95" class="dimension-text" font-size="9">6mm ⌀</text>
+  
+  <!-- FRONT VIEW (Side Profile) -->
+  <g transform="translate(350, 80)">
+    <text x="50" y="20" class="dimension-text" font-size="14" font-weight="bold">FRONT VIEW</text>
+    
+    <!-- Base plate profile -->
+    <rect x="25" y="50" width="160" height="8" fill="none" stroke="black" stroke-width="2"/>
+    
+    <!-- Wire post profile -->
+    <rect x="85" y="38" width="12" height="12" fill="gray" stroke="black" stroke-width="1"/>
+    <circle cx="91" cy="44" r="1.5" class="hole"/>
+    
+    <!-- Perforation depth indicators -->
+    <line x1="40" y1="50" x2="40" y2="46" stroke="red" stroke-width="1"/>
+    <line x1="60" y1="50" x2="60" y2="44" stroke="red" stroke-width="1"/>
+    <line x1="120" y1="50" x2="120" y2="44" stroke="red" stroke-width="1"/>
+    <line x1="140" y1="50" x2="140" y2="46" stroke="red" stroke-width="1"/>
+    <line x1="160" y1="50" x2="160" y2="46" stroke="red" stroke-width="1"/>
+    
+    <!-- Total height dimension -->
+    <line x1="15" y1="58" x2="15" y2="38" stroke="red" stroke-width="1"/>
+    <line x1="10" y1="58" x2="20" y2="58" stroke="red" stroke-width="1"/>
+    <line x1="10" y1="38" x2="20" y2="38" stroke="red" stroke-width="1"/>
+    <text x="25" y="48" class="dimension-text" font-size="8">12mm total</text>
+    
+    <!-- Base thickness -->
+    <text x="100" y="70" class="dimension-text" font-size="8">8mm base</text>
+    
+    <!-- Wire post height -->
+    <text x="105" y="42" class="dimension-text" font-size="8">4mm above</text>
+  </g>
+
+  <!-- Assembly notes -->
+  <text x="50" y="280" class="dimension-text" font-size="14" font-weight="bold" text-anchor="start">ASSEMBLY NOTES:</text>
+  <text x="50" y="300" class="dimension-text" font-size="12" text-anchor="start">• Compact electrode for dense compost layers</text>
+  <text x="50" y="315" class="dimension-text" font-size="12" text-anchor="start">• Wire post: 12mm square, 4mm above base</text>
+  <text x="50" y="330" class="dimension-text" font-size="12" text-anchor="start">• Mount with M6 bolts through corner holes</text>
+  
+  <!-- Manufacturing notes -->
+  <text x="50" y="360" class="dimension-text" font-size="12" font-weight="bold" text-anchor="start">MANUFACTURING:</text>
+  <text x="50" y="380" class="dimension-text" font-size="10" text-anchor="start">• Material: PLA+ or Wood-filled PLA</text>
+  <text x="50" y="395" class="dimension-text" font-size="10" text-anchor="start">• Print flat side down, no supports needed</text>
+  <text x="50" y="410" class="dimension-text" font-size="10" text-anchor="start">• Drill 2.5mm wire hole through post center after printing</text>
+  <text x="50" y="425" class="dimension-text" font-size="10" text-anchor="start">• Drill 6mm mounting holes through corners</text>
+  
+</svg>
