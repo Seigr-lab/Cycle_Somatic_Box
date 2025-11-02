@@ -15,20 +15,27 @@
 - Winter: compost warm, outside cold = maximum power
 - Complements solar energy perfectly
 
-## Choosing Peltier Modules
+## Finding Peltier Modules Sustainably
 
-**Specifications to look for**:
+**Recycled sources**:
+
+- Old portable coolers (remove TEG modules)
+- Discarded electronic equipment (some contain TEGs)
+- Broken solar generators or camping equipment
+- Electronic recycling centers
+- University/research lab surplus
+
+**Specifications needed**:
 
 - TEG (ThermoElectric Generator) type, not TEC (cooler)
-- 12V nominal output
-- 50-100 watt capacity
-- Bismuth telluride construction
+- Any voltage output (can be adjusted later)
+- Working condition (test before installing)
 
 **How many needed**:
 
-- 4-6 modules for good power output
-- More modules = more power
-- Cost vs. benefit consideration
+- Start with whatever you can find (even 1-2 modules work)
+- Add more over time as you find them
+- Focus on function over perfect specifications
 
 ## Installation Location
 
@@ -60,10 +67,10 @@
 
 ## What You Need
 
-- [ ] 4-6 Peltier TEG modules (12V)
-- [ ] Thermal paste or pads
-- [ ] Mounting brackets or clamps
-- [ ] Small heat sinks (optional but helpful)
-- [ ] Weather-resistant wire connections
+- [ ] Recycled Peltier TEG modules (from sources above)
+- [ ] Thermal compound (toothpaste works temporarily!)
+- [ ] Scrap metal or wood for mounting brackets
+- [ ] Old computer heat sinks or metal pieces
+- [ ] Salvaged wire and waterproof materials
 
 **Next step**: [Add thermal management](14-thermal-management.md)

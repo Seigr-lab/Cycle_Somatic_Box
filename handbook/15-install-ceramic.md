@@ -16,16 +16,24 @@
 - Creates electrical potential across tube walls
 - Many small voltages add up to usable power
 
-## Tube Specifications
+## Finding Ceramic Tubes
 
-**Material**: Unglazed ceramic (porous)
+**Recycled sources**:
 
-- Pottery tubes work well
-- Pool filter ceramic elements
-- Scientific ceramic tubes (if available)
+- Old terracotta drain pipes (construction sites)
+- Broken ceramic planters (use intact pieces)  
+- Discarded pool/aquarium filter ceramics
+- Old pottery projects (unglazed pieces)
+- Clay pipes from demolished buildings
 
-**Size**: 6-12 inches long, 1-2 inches diameter
-**Quantity**: 8-12 tubes for good power output
+**DIY alternatives**:
+
+- Roll clay and fire in campfire (unglazed)
+- Bamboo tubes (naturally porous when aged)
+- Wooden tubes with small holes drilled
+
+**Size**: Whatever you can find - any size helps
+**Quantity**: Use whatever you can source - even 2-3 tubes contribute
 
 ## Installation Pattern
 
@@ -46,14 +54,15 @@
 **Electrode placement**:
 
 - One wire inside tube
-- One wire outside tube
+- One wire outside tube  
 - Creates potential difference across ceramic wall
 
-**Wire material**:
+**Recycled wire sources**:
 
-- Stainless steel or carbon fiber
-- Resist corrosion in wet conditions
-- Connect to collection system
+- Old stainless steel kitchen utensils (straightened)
+- Salvaged wire from electronic devices
+- Car antenna rods (stainless steel)
+- Even copper wire from old electronics works initially
 
 ## Moisture Management
 
@@ -65,9 +74,9 @@
 
 ## What You Need
 
-- [ ] 8-12 porous ceramic tubes
-- [ ] Stainless steel or carbon wire
-- [ ] Waterproof connections
-- [ ] Installation tools for positioning
+- [ ] Recycled ceramic tubes or alternatives (see sources above)
+- [ ] Salvaged stainless steel or copper wire
+- [ ] Waterproof materials (old plastic bags, tape)
+- [ ] Basic tools for positioning
 
 **Next step**: [Connect streaming collectors](16-connect-streaming.md)

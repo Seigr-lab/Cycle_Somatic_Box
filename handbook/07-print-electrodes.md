@@ -1,6 +1,6 @@
-# Step 07: Print Electrode Pieces
+# Step 07: Create Electrode Structures
 
-**What you're doing**: Get the plastic electrode structures that will generate electricity from your compost.
+**What you're doing**: Build electrode structures from sustainable materials that will generate electricity from your compost.
 
 ## What Are Electrodes
 
@@ -8,14 +8,14 @@
 
 - Capture electrons from composting microbes
 - Work like a battery that runs on compost
-- Need special shapes with holes for microbe contact
+- Need perforated structures for microbe contact
 
 ## Electrode Types Needed
 
 **Large electrodes** (6 pieces):
 
 - Go in bottom zone (anodes)
-- Go in top zone (cathodes)
+- Go in top zone (cathodes)  
 - Size: about 10 inches x 10 inches
 
 **Medium electrodes** (4 pieces):
@@ -23,25 +23,26 @@
 - Go in middle transition zone
 - Size: about 8 inches x 8 inches
 
-## Getting Your Electrodes
+## Sustainable Construction Methods
 
-**3D printing** (if you have access):
+**3D printing with biodegradable materials**:
 
-- Use provided STL design files
-- Print in PLA plastic
-- 15% infill is fine
+- Print with PLA+ (biodegradable corn starch)
+- Wood-filled PLA filament (wood fiber + biodegradable binder)
+- Hemp-based 3D printing filament
 
-**Print service**:
+**Manual construction from recycled materials**:
 
-- Upload files to online printing service
-- Libraries often have 3D printers
-- Community makerspaces
+- Perforated metal sheets (from old appliances)
+- Hardware cloth or mesh (construction scraps)
+- Wooden frames with metal mesh inserts
+- Repurposed kitchen strainers or colanders
 
-**Alternative - manual construction**:
+**Reclaimed material sources**:
 
-- Cut from plastic sheets
-- Drill holes in regular pattern
-- Less efficient but works
+- Old computer case fans (remove electronics, keep frame)
+- Discarded cooking equipment with holes
+- Construction site mesh and screening
 
 ## Design Requirements
 
@@ -54,8 +55,8 @@
 
 ## What You Need
 
-- [ ] Access to 3D printer or print service
-- [ ] Electrode design files (STL format)
-- [ ] PLA plastic filament (if printing yourself)
+- [ ] Biodegradable 3D printing material OR recycled perforated materials
+- [ ] Basic tools for cutting/shaping (if using manual construction)
+- [ ] Wire mesh or hardware cloth (from construction scraps)
 
 **Next step**: [Apply conductive coating](08-apply-coating.md)

@@ -1,8 +1,8 @@
 # Cycle-Somatic Box Build Handbook
 
-**Build your own multi-stream energy harvesting composting system**
+**Build your own multi-stream energy harvesting composting system using recycled materials**
 
-This handbook guides you through building a composting box that generates continuous electricity using four different energy streams. Each step is small and focused - complete one step before moving to the next.
+This handbook guides you through building a sustainable composting box from reclaimed materials that generates continuous electricity using four different energy streams. Each step follows Seigr principles: **build with recycled materials, avoid plastic pollution, create rather than consume**.
 
 ## What You're Building
 
@@ -22,7 +22,7 @@ A composting system that generates 8-23 watts of continuous electricity from:
 
 ### Container Setup
 
-- **Step 03**: [Get your container](03-get-container.md)
+- **Step 03**: [Build your wood container](03-get-container.md)
 - **Step 04**: [Cut ventilation holes](04-cut-ventilation.md)
 - **Step 05**: [Add insulation](05-add-insulation.md)
 - **Step 06**: [Create zone dividers](06-create-dividers.md)
@@ -54,7 +54,7 @@ A composting system that generates 8-23 watts of continuous electricity from:
 ### Energy Management
 
 - **Step 19**: [Install power hub](19-install-power-hub.md)
-- **Step 20**: [Connect to EcoFlow](20-connect-ecoflow.md)
+- **Step 20**: [Create power storage system](20-connect-ecoflow.md)
 
 ### Composting Setup
 
@@ -69,9 +69,9 @@ A composting system that generates 8-23 watts of continuous electricity from:
 
 ## Key Features
 
-**Energy Independence**: Generates power 24/7, all seasons
-**Universal Compatibility**: Works with any organic matter and soil type  
-**Composting Integration**: Turns waste into both compost and electricity
-**Scalable Design**: Start small, expand as needed
+**Sustainable Construction**: Built entirely from recycled and reclaimed materials
+**Energy Independence**: Generates power 24/7, all seasons  
+**Zero Waste**: Turns organic waste into both compost and electricity
+**Anti-Consumerist**: Build, don't buy - use what already exists
 
 Start with **Step 01** and work through each step in order.

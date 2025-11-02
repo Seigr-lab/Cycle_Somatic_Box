@@ -1,21 +1,29 @@
-# Step 20: Connect to EcoFlow
+# Step 20: Create Power Storage System
 
-**What you're doing**: Connect your power hub to an EcoFlow Power Kit for practical electricity storage and usage.
+**What you're doing**: Build a power storage and management system using recycled batteries and electronics.
 
-## EcoFlow Integration
+## Sustainable Power Storage Options
 
-**Why EcoFlow Power Kit**:
+**Recycled battery systems**:
 
-- Handles variable renewable energy inputs
-- Built-in battery storage
-- Standard AC and DC outputs
-- Mobile app monitoring
+- Old UPS (Uninterruptible Power Supply) units
+- Salvaged car batteries (test capacity first)
+- Laptop batteries (combine multiple packs)
+- Power tool battery packs (often discarded when "dead")
 
-**Input compatibility**:
+**DIY charge controllers**:
 
-- Accepts 11-48V DC input
-- Your power hub should output in this range
-- MPPT charging optimizes power harvest
+- Arduino-based charge controller projects
+- Salvaged solar charge controllers
+- Simple diode-based charging circuits
+- Repurposed power supply units
+
+**Alternative to expensive commercial systems**:
+
+- Build instead of buy
+- Learn electronics while building
+- Much cheaper using recycled components
+- More educational and aligned with Seigr values
 
 ## Connection Setup
 
@@ -75,10 +83,10 @@
 
 ## What You Need
 
-- [ ] EcoFlow Power Kit system
-- [ ] DC input cables (correct gauge)
-- [ ] DC disconnect switch
-- [ ] Input fuses and protection
-- [ ] Mobile device for monitoring app
+- [ ] Recycled batteries (UPS, car, laptop packs)
+- [ ] Salvaged wire and connectors
+- [ ] Basic electronics components (diodes, fuses)
+- [ ] Multimeter for testing and monitoring
+- [ ] Basic tools for electronics work
 
 **Next step**: [Add initial composting materials](21-add-compost-materials.md)

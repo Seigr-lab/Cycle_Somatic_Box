@@ -16,20 +16,28 @@
 - More consistent decomposition
 - Faster compost production
 
-## Insulation Materials
+## Recycled Insulation Materials
 
-**Good options**:
+**Free/recycled options**:
 
-- Foam board insulation (easiest)
-- Reflective bubble wrap insulation
-- Old blankets or sleeping bags
-- Styrofoam sheets
+- Old blankets, sleeping bags, or comforters
+- Newspaper (multiple layers in plastic bags)
+- Cardboard (corrugated works best)
+- Old clothes stuffed into fabric bags
+- Straw or hay (if available locally)
+- Sawdust in fabric sacks
+
+**Reclaimed building materials**:
+
+- Reclaimed foam board from construction sites
+- Old packaging foam (clean, non-toxic only)
+- Discarded camping gear insulation
 
 **Avoid**:
 
-- Materials that absorb water
-- Anything that can rot
-- Toxic materials
+- New plastic foam products
+- Materials that absorb and hold water permanently
+- Anything with toxic chemicals or strong odors
 
 ## How to Install
 
@@ -49,9 +57,9 @@
 
 ## What You Need
 
-- [ ] Insulation material for your container size
-- [ ] Knife or saw to cut insulation
-- [ ] Adhesive or zip ties to attach
-- [ ] Duct tape for securing edges
+- [ ] Recycled insulation materials (see options above)
+- [ ] Basic cutting tools (knife, scissors)
+- [ ] Attachment method (old zip ties, rope, or fabric strips)
+- [ ] Waterproof covering if needed (old plastic bags, tarp scraps)
 
 **Next step**: [Create zone dividers](06-create-dividers.md)
